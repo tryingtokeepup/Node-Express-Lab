@@ -9,7 +9,7 @@ class App extends Component {
       posts: []
     };
   }
-
+  //need to fix this up
   componentDidMount() {
     axios
       .get("http://localhost:5001/api/posts/")
